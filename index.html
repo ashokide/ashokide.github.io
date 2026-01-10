@@ -1,84 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashok | Developer</title>
-    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
-    <meta name="theme-color" content="rgb(183, 231, 253)">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
-
-</head>
-
-<body>
-    <main class="container-fluid min-vh-100">
-        <div class="container">
-            <div class="row pt-2">
-                <h1 class="display-4">hey there ✌️</h1>
-                <h1 class="display-2 fw-bold pt-2">i'm <span class="text-danger">ashok </span></h1>
-                <p class="pt-2 fs-3">currently working <a class="text-decoration-none text-danger"
-                        href="https://www.cdw.com/" target="_blank" rel="noopener noreferrer">@cdw, chennai</a></span> as associate consultant</p>
-                <hr>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mx-auto text-center">
-                    <img src="./assets/images/ashok_dp.png" alt="ashok_dp" class="img-fluid w-75">
+    <title>Ashok Natarajan - Senior Software Engineer</title>
+    <meta name="description" content="Ashok Natarajan - Senior Software Engineer with experience in software development, ServiceNow, and DevOps.">
+    <meta name="keywords" content="Senior Software Engineer, Software Development, ServiceNow, DevOps, Full Stack Development">
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'mono': ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd',
+                            400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8',
+                            800: '#1e40af', 900: '#1e3a8a', 950: '#172554'
+                        },
+                        secondary: {
+                            50: '#f0fdfa', 100: '#ccfbf1', 200: '#99f6e4', 300: '#5eead4',
+                            400: '#2dd4bf', 500: '#14b8a6', 600: '#0d9488', 700: '#0f766e',
+                            800: '#115e59', 900: '#134e4a', 950: '#042f2e'
+                        }
+                    }
+                }
+            },
+            darkMode: 'class'
+        }
+    </script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-50 transition-colors duration-300">
+    <div class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="bg-white dark:bg-gray-800 shadow-sm py-5 transition-colors duration-300">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                <div class="flex justify-between items-center">
+                    <div class="text-center flex-1">
+                        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">Ashok Natarajan</h1>
+                        <p class="text-lg sm:text-xl text-primary-600 dark:text-primary-400 font-medium">Senior Software Engineer</p>
+                    </div>
+                    <button id="themeToggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300">
+                        <i class='bx bx-sun text-yellow-500 hidden dark:block' id="sunIcon"></i>
+                        <i class='bx bx-moon text-gray-700 dark:hidden' id="moonIcon"></i>
+                    </button>
                 </div>
-                <div class="col-lg-8">
-                    <p class="fs-4 mt-4">servicenow developer by profession🧑‍🔧</p>
-                    <p class="fs-4 mt-4">aspiring cloud devops engineer by passion 🧘</p>
-                    <p class="fs-4 mt-4">ex-intern <a class="text-decoration-none text-danger"
-                        href="https://www.setsindia.in/" target="_blank" rel="noopener noreferrer">@society for electronic transaction and security(sets)</a></p>
-                    <p class="fs-4 mt-4">ex-intern <a class="text-decoration-none text-danger"
-                        href="https://www.guvi.in/" target="_blank" rel="noopener noreferrer">@guvi</a></p>
-                    <p class="fs-4 mt-4">completed bachelors in information technology👨‍💻 <a class="text-decoration-none text-danger"
-                        href="https://kongu.ac.in/" target="_blank" rel="noopener noreferrer">@kec</a></p>
-                    <p class="mt-4">to hire :
-                        <a href="./assets/ashok-cv.pdf" target="_blank">
-                            <button class="btn btn-outline-danger">ashok cv</button>
-                        </a>
-                    </p>
-                    <div class="row p-1 mt-4 mb-4 text-center">
-                        <span class="col-lg-1 col-md-3 col-3">
-                            <a href="mailto:kbnashok@gmail.com" target="_blank" rel="noopener noreferrer">
-                                <box-icon name="gmail" type="logo">
-                                </box-icon>
-                            </a>
+            </div>
+        </header>
 
-                        </span>
-                        <span class="col-lg-1 col-md-3 col-3">
-                            <a href="https://wa.me/918973942855" target="_blank" rel="noopener noreferrer">
-                                <box-icon name="whatsapp" type="logo"></box-icon>
-                            </a>
-                        </span>
-                        <span class="col-lg-1 col-md-3 col-3">
-                            <a href="https://github.com/ashokide" target="_blank" rel="noopener noreferrer">
-                                <box-icon name="github" type="logo"></box-icon>
-                            </a>
+        <main class="flex-1 py-6 sm:py-8">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+                    <!-- Profile Section -->
+                    <div class="lg:col-span-1">
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 text-center transition-colors duration-300">
+                            <img src="/assets/images/ashok_dp.jpg" alt="Ashok Natarajan"
+                                 class="w-28 sm:w-32 h-28 sm:h-32 rounded-full mx-auto mb-4 object-cover">
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">About Me</h3>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                                Experienced software engineer with a background in full-stack development and DevOps practices.
+                                Currently building scalable systems at <a href="https://eqrev.com/" target="_blank" class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors">EQ-REV</a>, Coimbatore.
+                            </p>
+                        </div>
 
-                        </span>
-                        <span class="col-lg-1 col-md-3 col-3">
-                            <a href="https://in.linkedin.com/in/ashok-natarajan" target="_blank" rel="noopener noreferrer">
-                                <box-icon name="linkedin" type="logo"></box-icon>
-                            </a>
-                        </span>
+                        <!-- Contact Info -->
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 mt-6 transition-colors duration-300">
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-4 text-base">Contact</h3>
+                            <div class="space-y-3">
+                                <div class="flex items-center space-x-3">
+                                    <i class='bx bx-envelope text-primary-600 dark:text-primary-400'></i>
+                                    <div>
+                                        <a href="mailto:hello@ashoknatarajan.in" class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 text-sm">
+                                            hello@ashoknatarajan.in
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class='bx bx-map text-primary-600 dark:text-primary-400'></i>
+                                    <div>
+                                        <span class="text-gray-600 dark:text-gray-300 text-sm">Erode, Tamil Nadu, India</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="lg:col-span-2">
+                        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 transition-colors duration-300">
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-4 text-base">Experience</h3>
+                            <div class="space-y-5">
+                                <div>
+                                    <div class="mb-3">
+                                        <a href="https://eqrev.com/" target="_blank" class="font-medium text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">EQ-REV</a>
+                                        <span class="text-sm text-gray-500 dark:text-gray-400 ml-2">2025 - Present</span>
+                                    </div>
+                                    <div class="pl-3 space-y-3 border-l-2 border-primary-300 dark:border-primary-700">
+                                        <div>
+                                            <span class="text-gray-900 dark:text-white text-sm font-medium">Senior Software Engineer</span>
+                                            <span class="text-gray-500 dark:text-gray-400 text-sm ml-2">2025 - Present</span>
+                                            <p class="text-gray-600 dark:text-gray-300 text-sm mt-1">Leading development initiatives and building scalable systems</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- CDW Technologies Section -->
+                                <div>
+                                    <div class="mb-3">
+                                        <a href="https://cdw.com/" target="_blank" class="font-medium text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">CDW Technologies</a>
+                                        <span class="text-sm text-gray-500 dark:text-gray-400 ml-2">2023 - 2025</span>
+                                    </div>
+                                    <div class="pl-3 space-y-3 border-l-2 border-primary-300 dark:border-primary-700">
+                                        <div>
+                                            <span class="text-gray-900 dark:text-white text-sm font-medium">Associate Consultant</span>
+                                            <span class="text-gray-500 dark:text-gray-400 text-sm ml-2">May 2024 - Sept 2025</span>
+                                            <p class="text-gray-600 dark:text-gray-300 text-sm mt-1">Contributed to ServiceNow projects, participated in DevOps, conducted training sessions for teams and 100+ students</p>
+                                        </div>
+                                        <div>
+                                            <span class="text-gray-900 dark:text-white text-sm font-medium">Trainee Consultant</span>
+                                            <span class="text-gray-500 dark:text-gray-400 text-sm ml-2">July 2023 - April 2024</span>
+                                            <p class="text-gray-600 dark:text-gray-300 text-sm mt-1">Gained hands-on experience with ServiceNow platform and software development practices</p>
+                                        </div>
+                                        <div>
+                                            <span class="text-gray-900 dark:text-white text-sm font-medium">Trainee Consultant Intern</span>
+                                            <span class="text-gray-500 dark:text-gray-400 text-sm ml-2">Feb 2023 - May 2023</span>
+                                            <p class="text-gray-600 dark:text-gray-300 text-sm mt-1">Developed software solutions and gained industry experience with ServiceNow platform</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="mb-3">
+                                        <a href="https://guvi.in/" target="_blank" class="font-medium text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">GUVI</a>
+                                        <span class="text-sm text-gray-500 dark:text-gray-400 ml-2">2021 - 2022</span>
+                                    </div>
+                                    <div class="pl-3 space-y-3 border-l-2 border-primary-300 dark:border-primary-700">
+                                        <div>
+                                            <span class="text-gray-900 dark:text-white text-sm font-medium">Full Stack Development Intern</span>
+                                            <span class="text-gray-500 dark:text-gray-400 text-sm ml-2">2021 - 2022</span>
+                                            <p class="text-gray-600 dark:text-gray-300 text-sm mt-1">Built full-stack applications and learned modern web development technologies</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row text-center bg-dark text-white fixed-bottom">
-                <p class="my-auto footer"> &lt;/&gt; with &lt;3 by <a class="text-decoration-none"
-                        href="https://github.com/ashokide/" target="_blank" rel="noopener noreferrer">ashok</a> </p>
-            </div>
-        </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
+        </main>
 
+        <!-- Footer -->
+        <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-5 transition-colors duration-300">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">&copy; 2026 Ashok Natarajan. All rights reserved.</p>
+                    <div class="flex space-x-3">
+                        <a href="mailto:hello@ashoknatarajan.in" class="w-8 h-8 bg-gray-100 dark:bg-gray-700 hover:bg-primary-100 dark:hover:bg-primary-900 rounded-lg flex items-center justify-center transition-colors">
+                            <i class='bx bx-envelope text-gray-600 dark:text-gray-300'></i>
+                        </a>
+                        <a href="https://github.com/ashokide" class="w-8 h-8 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg flex items-center justify-center transition-colors">
+                            <i class='bx bxl-github text-gray-600 dark:text-gray-300'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ashok-natarajan/" class="w-8 h-8 bg-gray-100 dark:bg-gray-700 hover:bg-blue-100 dark:hover:bg-blue-900 rounded-lg flex items-center justify-center transition-colors">
+                            <i class='bx bxl-linkedin text-gray-600 dark:text-gray-300'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
 </html>

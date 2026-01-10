@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-main{
-    font-family: 'Quicksand', sans-serif;
-    /* background-color: #B8D5B8; */
-    background-color: rgb(183, 231, 253);
-}
-.footer{
-    word-spacing: 6px;
-}
